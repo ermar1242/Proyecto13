@@ -1,0 +1,74 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.Presentacion{
+    background-image: url(Fotos/Playa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+    color: white;
+}
+
+.Quos{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Productos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Fotos/Pueblito.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.Nose {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Nose div{
+    margin: 20px;
+}
+
+.Nose div img {
+    width: 300px;
+}
+
+.IMG_PROD{
+    color: white;
+}
+
+a{
+    text-decoration:none;
+    color: white; 
+}
+
+
+
+
+
+
