@@ -160,11 +160,64 @@ a{
     }
 
     .Banner img{
-        width: 120%;
+        width: 100%;
     }
 
     .Presentacion{
         height: 350px;
+    }
+
+    .Nose {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 20px;
+        gap: 30px;
+    }
+    
+    .Nose div img {
+        width: 170px;
+    }
+
+    .Form{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .Form input{
+        padding: 20px 120px 20px 40px;
+        text-align: start;
+        font-size: 15px;
+        margin-bottom: 15px;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    
+    .Form textarea{
+        width:350px;
+        height:150px;
+        text-align: start;
+        font-size: 15px;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .Boton_Cont{
+        border: none;
+        color: white;
+        padding: 20px 160px 20px 160px;
+        margin-top: 15px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #007bff;
+        transition: transform 0.3s ease-in-out; 
     }
 }
 
