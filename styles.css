@@ -1,3 +1,14 @@
+
+/*Elimina los botones del imput number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+/*------------------------------------------------*/
+
 body{
     background-color: white;
     /*font-family: 'Montserrat', sans-serif;*/
@@ -8,13 +19,19 @@ body{
     padding: 0;
     margin: 0;
 }
-
-.Banner img{
+.Banner{
+    height: 962px;
+}
+/*.Banner img{
     width: 100%;
+}*/
+.Banner iframe{
+    width: 100%;
+    height: 962px;
 }
 
 .Presentacion{
-    background-image: url(Fotos/Playa.jpg);
+    background-image: url(Fotos/Led-Screen-Video-LED-Citsa.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,12 +52,11 @@ body{
 .Quos{
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .Productos{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Fotos/Pueblito.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Fotos/pixelcut-export.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +104,11 @@ a{
     border: 2px solid #e7e7e7;
 }
 
+#Contacto{
+    background-color: #0056b3;
+    color: white;
+}
+
 .Form{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,14 +123,14 @@ a{
     font-size: 15px;
     margin-bottom: 15px;
     border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #007bff;
 }
 
 .Form textarea{
     text-align: start;
     font-size: 15px;
     border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #007bff;
 }
 
 .Boton_Cont{
@@ -125,7 +146,7 @@ a{
 }
 
 .Boton_Cont:hover{
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 .Boton_Cont:active{
@@ -145,6 +166,7 @@ a{
     justify-content: center;
     font-size: 17px;
     font-weight: 600;
+    margin: 0;
     
 }
 
