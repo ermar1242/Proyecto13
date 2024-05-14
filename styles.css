@@ -191,6 +191,12 @@ a{
 }
 
 @media (max-width: 900px) {
+    .Banner{
+        height: 250px;
+    }
+    .Banner iframe{
+        height: 250px;
+    }
     .Form{
     grid-template-columns: 1fr;    
     }
